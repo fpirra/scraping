@@ -47,7 +47,7 @@ for i in range(0, 2000):
         categories["turismo y gastronomia"] += 1
 
     # writting the output file
-    writer.writerow([i, proy_nombre.encode('utf-8'), proy_descript.encode('utf-8'), socio1.encode('utf-8'), socio2.encode('utf-8')])
+    writer.writerow([i, categoria.encode('utf-8'), proy_nombre.encode('utf-8'), proy_descript.encode('utf-8'), socio1.encode('utf-8'), socio2.encode('utf-8')])
 
 outputFile.close()
 print "Se finalizo el proceso de recopilado."
